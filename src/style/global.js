@@ -8,7 +8,9 @@ export default createGlobalStyle`
     }
 
     body, input, button{
-        background-color: ${({ theme }) => theme.COLORS.back_800};
+        background-color: ${({ theme }) => theme.COLORS.back_700};
         font-size: 16px;
+        font-family: 'Archivo', sans-serif;
+        color: ${({ theme }) => theme.COLORS.text};
     }
 `

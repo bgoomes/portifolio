@@ -1,12 +1,12 @@
 export default{
     COLORS: {
-        back_900: "",
-        back_800: "",
-        back_700: "",
+        back_900: "#313131",
+        back_700: "#000",
 
-        text: "",
+        text: "#fffffc",
 
-        links: "",
+        links: "#a842ff",
+        links_100: "#ba75ff",
 
     }
 }
