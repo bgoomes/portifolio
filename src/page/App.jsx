@@ -7,18 +7,20 @@ function App() {
     
     <Container>
       <Header />
-      <section>
-          <h1>hello word</h1>
+        <div>
+          <section>
+            <h1>obrunogomesreal</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Odio quis, repellat illum at obcaecati ipsam sit quo ab error? Veritatis, quae magnam. 
+              Voluptatum qui neque animi magni, voluptatibus assumenda recusandae?
+            </p>
+          </section>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, 
-          quas eum. Tempora possimus voluptas quisquam minima asperiores nostrum, dolores reiciendis ex consectetur in? Debitis hic saepe, provident cupiditate molestiae ratione?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quam ipsum sint unde fugit officia magnam debitis corporis ab tenetur necessitatibus, a sed eveniet eius cupiditate culpa recusandae provident asperiores.</p>
-
-          <button>legal</button>
-      </section>
-      <section>
-        
-      </section>
+          <section>
+            <img src="" alt="imagem sobre programação" />
+          </section>
+        </div>
       
       <Footer />
     </Container>

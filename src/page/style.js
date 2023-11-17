@@ -2,21 +2,24 @@ import styled from "styled-components";
 
 
 export const Container = styled.main`
-    width: 980px;
+    width: 100%;
     height: 100vh;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    gap: 50px;
 
-    section{
-        width: 380px;
+    display: grid;
+
+    
+
+    div section {
+        width: 480px;
+        height: 400px;
+
+        padding: 10px;
+
+        border: 1px solid;
 
         
-
-        display:  flex;
-        flex-direction:column;
-        align-items: flex-start;
     }
-`
+
+    
+` 

@@ -1,11 +1,18 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.header`
     width: 100%;
-    height: 80px;
+    height: 70px;
+    box-shadow: rgba(255, 255, 255, 0.09) 0px 2px 1px, rgba(255, 255, 255, 0.09) 0px 4px 2px,
+    rgba(255, 255, 255, 0.09) 0px 8px 4px, rgba(255, 255, 255, 0.09) 0px 16px 8px,
+    rgba(255, 255, 255, 0.09) 0px 32px 16px;
 
-    background-color: ${({ theme }) => theme.COLORS.back_700};
-    color: #fff;
+    /* background-color: ${({ theme }) => theme.COLORS.back_700}; */
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     
 
@@ -13,7 +20,7 @@ export const Container = styled.div`
         width: 350px;
         height: 40px;
 
-        border: 1px solid red;
+        
     }
 
     div {
@@ -32,17 +39,20 @@ export const Container = styled.div`
         a{
             text-decoration: none;
             font-size: 14px;
+            font-weight: bold;
             
             color: ${({ theme }) => theme.COLORS.text};
             margin-left: 12px;
             padding: 8px;
             border-radius: 10px;
+            transition: background-color 0.5s;
         }
 
         a:hover{
            
             background-color: ${({ theme }) => theme.COLORS.back_900};
             /* opacity: 0.7; */
+            
         }
     }
     

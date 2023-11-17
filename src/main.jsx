@@ -5,6 +5,7 @@ import theme from './style/theme.js'
 import GlobalStyles from './style/global.js'
 
 import App from './page/App.jsx'
+import { Footer } from './components/footer/Footer.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
