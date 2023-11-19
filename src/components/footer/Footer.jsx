@@ -1,34 +1,32 @@
-import { Container } from "./style" 
+import { Container, Content, Redes } from "./style" 
 import { FiSend } from "react-icons/fi";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
  
 export function Footer(){
     return(
         <Container>
-          <div className="content">
+          <Content>
             <header>
                 <span>Vamos conversar?</span>
                 <p>
                     Tem alguma ideia que precisa tirar do papel, sinta-se a vontade para me mandar um mensagem, quem sabe eu possa ajudar!
                 </p>
                 
-            </header>
+            </header> 
             <button>
                 Fale comigo
                 <FiSend />
             </button>
             
 
-            <div className="redes">
+            <Redes>
                 <nav>
-                   <a href=""><FaGithub /></a>
-                   <a href=""><FaLinkedin /></a>
-                   <a href=""><FaInstagram /></a>
-                   
-
+                   <a href="https://github.com/bgoomes" target="_blank"><FaGithub /></a>
+                   <a href="https://www.linkedin.com/in/obrunogomesreal/" target="_blank"><FaLinkedin /></a>
+                   <a href="https://www.instagram.com/obrunogomesreal/" target="_blank"><FaInstagram /></a> 
                 </nav>
-            </div>
-          </div>
+            </Redes>
+          </Content>
         </Container>
     )
 }

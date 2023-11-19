@@ -8,18 +8,41 @@ export const Container = styled.main`
 
     display: grid;
 
-    
+    overflow: auto;
 
-    div section {
-        width: 480px;
-        height: 400px;
+` 
+
+export const Section = styled.section`
+        width: 980px;
+        min-height: 400px;
+        margin: 20px auto ;
 
         padding: 10px;
 
-        border: 1px solid;
+        border: 1px solid; 
 
-        
+        display: flex;
+        gap: 15px;
+
+
+    .text{
+        width: 490px;
+        height: 100%;
+
+        h1{
+            margin-top: 20px;
+            color: ${({theme}) => theme.COLORS.links_100};
+
+            font-size: 32px;
+            font-weight: bold;
+        }
+        span{
+            font-size: 14px;
+            
+        }
     }
 
-    
-` 
+    figure{
+        padding: 15px;
+    }
+`

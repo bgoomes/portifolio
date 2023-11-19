@@ -19,8 +19,12 @@ export const Container = styled.footer`
         opacity: 0.6;
         
     }
+    
+`
 
-    .content{
+export const Content = styled.div`
+        width: 980px;
+        margin: auto;
         display: flex;
         flex-direction: column;
         gap: 12px;
@@ -46,9 +50,11 @@ export const Container = styled.footer`
         button:hover{
             transform: scale(1.1);
         }
-    }
+`
 
-    .redes{
+
+export const Redes = styled.div`
+
         width: 100%;
         height: 50px;
         
@@ -73,8 +79,5 @@ export const Container = styled.footer`
         a svg:hover{
             color:${({ theme }) => theme.COLORS.links_100};
         }
-
-    }
-
-    
+        
 `

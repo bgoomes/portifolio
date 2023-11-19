@@ -1,12 +1,12 @@
-import { Container } from "./style";
+import { Container, Main, Logo } from "./style";
 
 export function Header(){
     return(
         <Container>
-            <div>
-                <figure>
+            <Main>
+                <Logo>
                     <img src="../../../logo.svg" alt="logo" />
-                </figure>
+                </Logo>
                 <nav>
                     <a href="#">Home</a>
                     <a href="#">Sobre</a>
@@ -14,7 +14,7 @@ export function Header(){
                     <a href="#">Contato</a>
                     <a href="#">Newsletter</a>
                 </nav>
-            </div>
+            </Main>
         </Container>
     )
 }
